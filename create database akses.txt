@@ -1,0 +1,7 @@
+CREATE TABLE `rfid`.`tblakses` 
+( `akses_ID` INT(10) NOT NULL AUTO_INCREMENT 
+, `ID_TAG` INT(15) NOT NULL 
+, `waktu_akses` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP 
+, PRIMARY KEY (`akses_ID`));
+
+foreign id tag tbl user manual aja ke relation view
